@@ -5,7 +5,6 @@ import generator.storage as storage
 def get_bool_input(prompt: str) -> bool:
     choice = input(f"{prompt} (y/n): ").strip().lower()
     return choice == 'y'
-
 def run():
     while True:
         cli.print_header()
